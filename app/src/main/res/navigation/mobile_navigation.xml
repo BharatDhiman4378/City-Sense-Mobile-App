@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.project.myapplication.Fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_blank"/>
+
+  <fragment android:id="@+id/navigation_Map"
+        android:name="com.project.myapplication.Fragment.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map"/>
+
+  <fragment android:id="@+id/navigation_Nav"
+        android:name="com.project.myapplication.Fragment.NavigationFragment"
+        android:label="Navigation"
+        tools:layout="@layout/fragment_navigation"/>
+
+    <fragment android:id="@+id/navigation_Currency"
+        android:name="com.project.myapplication.Fragment.CurrencyFragment"
+        android:label="Currency Exchange"
+        tools:layout="@layout/fragment_currency"/>
+
+</navigation>
